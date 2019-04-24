@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 class NavBar extends React.Component {
   render() {
     return (
-      <div>
+      <div id="menu">
         {/* <Link to="/">
           <span> |Landing Page| </span>
         </Link> */}
-        <h2>Menu Bar here</h2>
+        <h2>Menu Bar here (top left)</h2>
       </div>
     );
   }

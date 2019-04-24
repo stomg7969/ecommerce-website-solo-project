@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 class CartContainer extends Component {
   render() {
     return (
-      <div>
+      <div id="cart">
         {/* <Link to="/">
           <span> |Landing Page| </span>
         </Link> */}
-        <h2>Cart here</h2>
+        <h2>Cart here (top right)</h2>
       </div>
     );
   }
