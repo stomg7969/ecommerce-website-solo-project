@@ -8,7 +8,8 @@ class UserContainer extends Component {
         {/* <Link to="/">
           <span> |Landing Page| </span>
         </Link> */}
-        <h2>User related comps here (only in Menu bar)</h2>
+        <h2>User profile comps here</h2>
+        <strong>(only in Menu bar)</strong>
       </div>
     );
   }

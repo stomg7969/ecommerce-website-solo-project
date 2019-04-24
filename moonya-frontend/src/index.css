@@ -25,6 +25,11 @@ img {
   margin-left: 20%;
   margin-right: 20%;
 }
+#user-container {
+  border-style: groove;
+  text-align: center;
+  margin: 1%;
+}
 #cart {
   border-style: groove;
   text-align: center;
@@ -39,8 +44,14 @@ img {
   border-style: solid;
   text-align: center;
   margin: 1%;
+  margin-left: 20%;
 }
-#user-container {
+#product-list {
+  border-style: groove;
+  text-align: center;
+  margin: 1%;
+}
+#product-card {
   border-style: groove;
   text-align: center;
   margin: 1%;

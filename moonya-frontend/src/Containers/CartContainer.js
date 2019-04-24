@@ -9,6 +9,12 @@ class CartContainer extends Component {
           <span> |Landing Page| </span>
         </Link> */}
         <h2>Cart here (top right)</h2>
+        <div>
+          <p>show picked up items here</p>
+        </div>
+        <div>
+          <p>total amount, shipping info slection, and more</p>
+        </div>
       </div>
     );
   }
