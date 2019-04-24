@@ -7,23 +7,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   border-style: dotted;
+  background-color: #fcf7e4;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 img {
-  display: block;
+  /* display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 80%; */
+  width: 100%;
 }
-
+#landing-page {
+}
 #menu {
   border-style: double;
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: 1%;
+  margin-right: 80%;
 }
 #user-container {
   border-style: groove;
@@ -34,9 +37,26 @@ img {
   border-style: groove;
   text-align: center;
   margin: 1%;
+  margin-left: 80%;
 }
 #user-input {
   border-style: ridge;
+  text-align: center;
+  margin: 1%;
+  margin-left: 20%;
+}
+#search {
+  border-style: double;
+  text-align: center;
+  margin: 1%;
+}
+#sort {
+  border-style: double;
+  text-align: center;
+  margin: 1%;
+}
+#filter {
+  border-style: double;
   text-align: center;
   margin: 1%;
 }

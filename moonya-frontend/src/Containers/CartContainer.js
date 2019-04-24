@@ -11,9 +11,11 @@ class CartContainer extends Component {
         <h2>Cart here (top right)</h2>
         <div>
           <p>show picked up items here</p>
+          {/* this maybe another component */}
         </div>
         <div>
           <p>total amount, shipping info slection, and more</p>
+          {/* this maybe another component */}
         </div>
       </div>
     );
