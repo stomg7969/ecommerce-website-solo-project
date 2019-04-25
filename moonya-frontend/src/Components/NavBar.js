@@ -8,7 +8,7 @@ class NavBar extends React.Component {
         {/* <Link to="/">
           <span> |Landing Page| </span>
         </Link> */}
-        <h2>Menu Bar here (top left)</h2>
+        <h4>Menu Bar here (top left)</h4>
       </div>
     );
   }

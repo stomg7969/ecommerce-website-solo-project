@@ -27,8 +27,13 @@ img {
 #menu {
   border-style: double;
   text-align: center;
-  margin: 1%;
-  margin-right: 80%;
+  background-color: #fcf7e4;
+  /* margin: 1%;
+  margin-right: 80%; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10em;
 }
 /* ****************************************************** */
 /* User login, logout, signup, profile container */
@@ -42,8 +47,13 @@ img {
 #cart {
   border-style: groove;
   text-align: center;
-  margin: 1%;
-  margin-left: 80%;
+  background-color: #fcf7e4;
+  /* margin: 1%;
+  margin-left: 80%; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10em;
 }
 /* ****************************************************** */
 /* Container that wraps searching, filtering, and sorting */

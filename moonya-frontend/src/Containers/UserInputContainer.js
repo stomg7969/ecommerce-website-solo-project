@@ -20,6 +20,7 @@ class UserInputContainer extends Component {
         <Search />
         <Sort />
         <Filter />
+        {/* all passed up states must be passed on to product container to filter out */}
       </div>
     );
   }
