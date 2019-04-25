@@ -22,44 +22,69 @@ img {
 }
 #landing-page {
 }
+/* ****************************************************** */
+/* Navigation menue */
 #menu {
   border-style: double;
   text-align: center;
   margin: 1%;
   margin-right: 80%;
 }
+/* ****************************************************** */
+/* User login, logout, signup, profile container */
 #user-container {
   border-style: groove;
   text-align: center;
   margin: 1%;
 }
+/* ****************************************************** */
+/* customer cart */
 #cart {
   border-style: groove;
   text-align: center;
   margin: 1%;
   margin-left: 80%;
 }
+/* ****************************************************** */
+/* Container that wraps searching, filtering, and sorting */
 #user-input {
   border-style: ridge;
   text-align: center;
   margin: 1%;
   margin-left: 20%;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: column;
 }
+/* ****************************************************** */
+/* Searching */
 #search {
   border-style: double;
   text-align: center;
   margin: 1%;
 }
+/* ****************************************************** */
+/* Sorting */
 #sort {
   border-style: double;
   text-align: center;
   margin: 1%;
 }
-#filter {
-  border-style: double;
-  text-align: center;
-  margin: 1%;
+#price-sort-container {
+  /* margin-left: 20%; */
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
 }
+.price-sort {
+  border-style: groove;
+}
+.price-sort h5 {
+  /* background-color: rgb(239, 234, 225); */
+  margin: 0.5em;
+}
+/* ****************************************************** */
+/* Products */
 #product-container {
   border-style: solid;
   text-align: center;
@@ -76,3 +101,75 @@ img {
   text-align: center;
   margin: 1%;
 }
+/* ****************************************************** */
+/* Filtering */
+#filter {
+  border-style: double;
+  text-align: center;
+  margin: 1%;
+}
+#color-filter-container {
+  /* margin-left: 20%; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#gender-filter-container {
+  /* margin-left: 20%; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#material-filter-container {
+  /* margin-left: 20%; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#category-filter-container {
+  /* margin-left: 20%; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.filter {
+  border-style: groove;
+}
+.filter h5 {
+  margin: 0.5em;
+}
+#white {
+  background-color: rgb(239, 234, 225);
+}
+#black {
+  background-color: black;
+}
+#brown {
+  background-color: rgb(121, 81, 16);
+}
+#navy {
+  background-color: rgb(63, 74, 83);
+}
+#blue {
+  background-color: rgb(103, 157, 198);
+}
+#yellow {
+  background-color: rgb(254, 208, 93);
+}
+#pink {
+  background-color: rgb(247, 187, 197);
+}
+#purple {
+  background-color: rgb(128, 67, 154);
+}
+#beige {
+  background-color: rgb(218, 199, 176);
+}
+#red {
+  background-color: rgb(191, 64, 40);
+}
+#green {
+  background-color: #57ad68;
+  /* background-color: rgb(88, 167, 104); */
+}
+/* ************************************ */
