@@ -54,15 +54,18 @@ img {
 /* ****************************************************** */
 /* customer cart */
 #cart {
-  border-style: groove;
-  text-align: center;
+}
+#cart-image {
   background-color: #fcf7e4;
-  /* margin: 1%;
-  margin-left: 80%; */
+  width: 3em;
   position: fixed;
   top: 0;
   right: 0;
-  width: 10em;
+}
+#cart-number {
+  position: fixed;
+  top: 18px;
+  right: 19px;
 }
 /* ****************************************************** */
 /* Container that wraps searching, filtering, and sorting */
@@ -81,6 +84,9 @@ img {
   border-style: double;
   text-align: center;
   margin: 1%;
+}
+#magnifier {
+  width: 3em;
 }
 /* ****************************************************** */
 /* Sorting */
