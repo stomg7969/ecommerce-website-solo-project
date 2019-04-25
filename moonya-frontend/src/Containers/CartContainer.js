@@ -8,7 +8,7 @@ class CartContainer extends Component {
         {/* <Link to="/">
           <span> |Landing Page| </span>
         </Link> */}
-        <h2>Cart here (top right)</h2>
+        <h2>Cart here</h2>
         <div>
           <p>show picked up items here</p>
           {/* this maybe another component */}

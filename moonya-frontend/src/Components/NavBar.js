@@ -5,10 +5,17 @@ class NavBar extends React.Component {
   render() {
     return (
       <div id="menu">
-        {/* <Link to="/">
-          <span> |Landing Page| </span>
-        </Link> */}
-        <h4>Menu Bar here (top left)</h4>
+        <h4>Menu Bar here</h4>
+        <div className="navbar-name">
+          <Link to="/">
+            <span> |Landing Page| </span>
+          </Link>
+        </div>
+        <div className="navbar-name">
+          <Link to="/user">
+            <span> |User Page| </span>
+          </Link>
+        </div>
       </div>
     );
   }
