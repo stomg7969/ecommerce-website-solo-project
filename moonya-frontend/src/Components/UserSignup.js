@@ -1,5 +1,5 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 // copied from my auth lab. must be modified
 class UserSignup extends React.Component {
   state = {
@@ -40,35 +40,41 @@ class UserSignup extends React.Component {
   render() {
     const { name, email, password } = this.state;
     return (
-      <form onSubmit={this.submitListener}>
-        <label>Name</label>
-        <input
-          type="text"
-          name="name"
-          value={name}
-          onChange={this.changeListener}
-        />
-        <br />
+      <div>
+        <h3>Create Account</h3>
+        <form onSubmit={this.submitListener}>
+          <label>Name</label>
+          <input
+            type="text"
+            name="name"
+            value={name}
+            onChange={this.changeListener}
+          />
+          <br />
 
-        <label>Email</label>
-        <input
-          type="text"
-          name="email"
-          value={email}
-          onChange={this.changeListener}
-        />
-        <br />
+          <label>Email</label>
+          <input
+            type="text"
+            name="email"
+            value={email}
+            onChange={this.changeListener}
+          />
+          <br />
 
-        <label>Password</label>
-        <input
-          type="password"
-          name="password"
-          value={password}
-          onChange={this.changeListener}
-        />
-        <br />
-        <button>Signup</button>
-      </form>
+          <label>Password</label>
+          <input
+            type="password"
+            name="password"
+            value={password}
+            onChange={this.changeListener}
+          />
+          <br />
+          <button>Signup (don't click yet)</button>
+        </form>
+        <Link to="/user">
+          <span>login</span>
+        </Link>
+      </div>
     );
   }
 }

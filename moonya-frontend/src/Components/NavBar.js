@@ -13,7 +13,7 @@ class NavBar extends React.Component {
         </div>
         <div className="navbar-name">
           <Link to="/user">
-            <span> |User Page| </span>
+            <span> |Login| </span>
           </Link>
         </div>
       </div>

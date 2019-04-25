@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 // copied from my auth lab. must be modified
 class PasswordUpdate extends Component {
   state = {
@@ -22,7 +22,7 @@ class PasswordUpdate extends Component {
     if (newPW === confirmPW) {
       const jwt = require("jsonwebtoken");
       const token = localStorage.getItem("user_token");
-      const decoded = jwt.verify(token, "my_s3cr3t");
+      const decoded = jwt.verify(token, process.env.REACT_APP_AUTH_KEY);
 
       fetch(`http://localhost:3000/api/v1/users/${decoded.user_id}`, {
         method: "PATCH",
@@ -75,6 +75,9 @@ class PasswordUpdate extends Component {
           <br />
           <button>change</button>
         </form>
+        <Link to="/user/profile">
+          <span>Cancel</span>
+        </Link>
       </div>
     );
   }

@@ -19,7 +19,7 @@ class LandingDisplay extends Component {
       <Fragment>
         <div id="landing-page">
           <h1>Moonya Ecommerce</h1>
-          <img src={landingPicture} alt="moonya landing picture" />
+          <img src={landingPicture} alt="moonya" />
           <p>will have a big picture (carousel)</p>
         </div>
         <button onClick={this.clickListener}>Magnifier(picture)</button>

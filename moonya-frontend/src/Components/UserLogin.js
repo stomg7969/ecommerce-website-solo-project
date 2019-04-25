@@ -1,5 +1,5 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 // copied from my auth lab. must be modified
 class UserLogin extends React.Component {
   state = {
@@ -44,25 +44,32 @@ class UserLogin extends React.Component {
   render() {
     const { name, password } = this.state;
     return (
-      <form onSubmit={this.submitListener}>
-        <label>Name</label>
-        <input
-          type="text"
-          name="name"
-          value={name}
-          onChange={this.changeListener}
-        />
-        <br />
-        <label>Password</label>
-        <input
-          type="password"
-          name="password"
-          value={password}
-          onChange={this.changeListener}
-        />
-        <br />
-        <button>Login</button>
-      </form>
+      <div>
+        <h3>Login</h3>
+        <form onSubmit={this.submitListener}>
+          <label>Name</label>
+          <input
+            type="text"
+            name="name"
+            value={name}
+            onChange={this.changeListener}
+          />
+          <br />
+          <label>Password</label>
+          <input
+            type="password"
+            name="password"
+            value={password}
+            onChange={this.changeListener}
+          />
+          <br />
+          <button>Login(don't click yet)</button>
+        </form>
+        <Link to="/user/new">
+          {" "}
+          <span>sign up</span>
+        </Link>
+      </div>
     );
   }
 }

@@ -6,13 +6,13 @@ class UserProfile extends Component {
   componentDidMount() {
     const jwt = require("jsonwebtoken");
     const token = localStorage.getItem("user_token");
-    const decoded = jwt.verify(token, process.env.REACT_APP_AUTH_KEY);
-
+    // const decoded = jwt.verify(token, process.env.REACT_APP_AUTH_KEY);
+    //
     console.log(
       "%c IN USER PROFILE",
       "background: #222; color: yellow",
-      "jwt decoded: ",
-      decoded
+      "jwt decoded: "
+      // decoded
     );
   }
   // profile page. has a button that calls PasswordUpdate component

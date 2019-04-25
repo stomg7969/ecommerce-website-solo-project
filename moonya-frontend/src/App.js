@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Route, Link, Switch } from "react-router-dom";
-import logo from "./logo.svg";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import NavBar from "./Components/NavBar";
 import LandingDisplay from "./Components/LandingDisplay";
